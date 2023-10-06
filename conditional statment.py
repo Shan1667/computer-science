@@ -14,4 +14,12 @@ else:
     print("Incorrect answer")
     
 colour = input("what is your favorite colour:")
-if 
+if "red" in colour:
+    print("I like red too!")
+else:
+    print("i dont like",colour,"I prefer red")
+
+number = input("please add a number that is less than 50:")
+number = int(number)
+while  number < 50:
+    print("please add another number")
