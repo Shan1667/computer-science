@@ -1,0 +1,34 @@
+print("we will try to find the greatest of these three numbers")
+A = input("enter a number:")
+B = input("enter another number:")
+C = input("enter one more number:")
+if A > B and A > C:
+    print("A is the greatest number")
+elif C > A and C > B:
+    print("C is the greatest number")
+else:
+    print("B is the greatest number")
+    
+print("we will find the greatest number")
+a1 = input("enter a number:")
+b1 = input("enter another number:")
+c1 = input("enter one more number:")
+if a1 > b1 and a1 > c1:
+    print("a1 is the greatest")
+elif b1 > c1:
+    print("b1 is the greatest")
+else:
+    print("c1 is the greatest")
+    
+print("this program will take three integers inputs from the user and will find the maximum greatest number")
+a = input("enter a number:")
+b = input("please enter another number:")
+c = input("please enter one more number:")
+if a < b:
+    print("maximum is B")
+if a < c:
+    print("maximum is C")
+else:
+    print("maximum is A")
+
+
