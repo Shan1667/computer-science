@@ -1,17 +1,25 @@
-mars_bar = 1
-can_of_coke = 1.50
-bag_of_crisps = 80
-cup_of_tea = 2
-slice_of_pan = 3.50
+name = input("please enter your name:")
+print("hello, your name is", name,)
 
-mars_bar = print("The quantity for a mars bar is 5x, for €1")
-can_of_coke = print("The quantity for a can of coke is 4x, for  €1.50")
-bag_of_crisps = print("The quantity for a bag of crisp is 3x, for 80c")
-cup_of_tea = print("The quantity for a cup of tea is 2x, for  €2")
-slice_of_pan = print("The quantity for a slice of pan is 1x, for  €3.50")
+numb = input("please enter two number")
+numbs = input("lpease enter another number")
+print("the answer is", numb + numbs,)
 
-number1 = int(input("Enter first number: "))
-number2 = int(input("Enter second number: "))
-sum = number1 + number2
-print("The answer is sum")
-print(number1, "+", number2, "=", sum)
+temperature = int(input("Enter the Temperature in Celsius :\n"))
+temperature2 = (9.5 * temperature) + 32.
+print("Temperature in Fahrenheit :", temperature2)
+
+def intrest(numbs,numb,number):
+    print('The principal is', numbs)
+    print('The time period is', numb)
+    print('The rate of interest is',number)
+     
+    si = (numbs * numb* number)/100
+     
+    print('The Simple Interest is', si)
+     
+numbs = int(input("Enter the principal amount :"))
+numb = int(input("Enter the time period :"))
+number = int(input("Enter the rate of interest :"))
+intrest(numbs,numb,number)
+ 
