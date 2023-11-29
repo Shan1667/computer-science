@@ -1,0 +1,17 @@
+print("hello lets play a game")
+chances_left = 5
+print("we will play hangman, the word will contain 10 words")
+wrd = input("please guess your letter:")
+word = str("technology")
+time = word.count(word)
+while chances_left >= 0:
+
+    if wrd in word:
+        print("good job")
+    else:
+        print("try again")
+    wrd = input("please guess your letter:")
+    chances_left = chances_left - 1
+
+
+
