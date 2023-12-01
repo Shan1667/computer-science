@@ -1,0 +1,22 @@
+name = input("Hello there, what is your name?:")
+print("so your name is", name,". alright then lets play a game")
+score = 1
+chances_left = 4
+print("we will play hangman, the word will contain 10 words")
+wrd = input("please guess your letter:")
+word = str("technology")
+time = word.count(word)
+while chances_left >= 0:
+
+    if wrd in word:
+        print("good job")
+        line = print("----------")
+        wrd = input("please guess your letter:")
+    else:
+      print("try again")
+      line = print("----------")
+      wrd = input("please guess your letter:")
+      chances_left = chances_left - 1
+      
+      
+      
